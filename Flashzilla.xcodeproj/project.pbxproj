@@ -15,6 +15,7 @@
 		B4DB197E23CEE36C00029B44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4DB197C23CEE36C00029B44 /* LaunchScreen.storyboard */; };
 		B4DB199323D9641500029B44 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB199223D9641500029B44 /* Card.swift */; };
 		B4DB199623D9645900029B44 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB199523D9645900029B44 /* CardView.swift */; };
+		B4DB199823D96ABE00029B44 /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB199723D96ABE00029B44 /* EditCards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B4DB197F23CEE36C00029B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4DB199223D9641500029B44 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		B4DB199523D9645900029B44 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B4DB199723D96ABE00029B44 /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				B4DB199523D9645900029B44 /* CardView.swift */,
+				B4DB199723D96ABE00029B44 /* EditCards.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				B4DB197223CEE36B00029B44 /* AppDelegate.swift in Sources */,
 				B4DB197423CEE36B00029B44 /* SceneDelegate.swift in Sources */,
 				B4DB197623CEE36B00029B44 /* ContentView.swift in Sources */,
+				B4DB199823D96ABE00029B44 /* EditCards.swift in Sources */,
 				B4DB199323D9641500029B44 /* Card.swift in Sources */,
 				B4DB199623D9645900029B44 /* CardView.swift in Sources */,
 			);
