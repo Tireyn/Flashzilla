@@ -62,6 +62,22 @@ struct ContentView: View {
             
             VStack {
                 HStack {
+                    Button(action: {
+                        self.isActive.toggle()
+                    }) {
+                        if self.isActive {
+                            Image(systemName: "pause.circle")
+                                .padding()
+                                .background(Color.black.opacity(0.7))
+                                .clipShape(Circle())
+                        } else {
+                            Image(systemName: "play.circle")
+                                .padding()
+                                .background(Color.black.opacity(0.7))
+                                .clipShape(Circle())
+                        }
+                    }
+                    
                     Spacer()
 
                     Button(action: {
